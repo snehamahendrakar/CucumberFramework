@@ -42,6 +42,7 @@ public class LeadPage extends HeaderPage {
 	
 	public void createleadwithmandatoryfileld(String lastname, String comp)
 	{		
+		System.out.println("");
 		genericmethods.entervalue(driver, lname, lastname, logger);
 		genericmethods.entervalue(driver, company, comp, logger);
 		genericmethods.clickelement(driver, savebtn, logger);

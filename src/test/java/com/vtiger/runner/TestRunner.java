@@ -18,7 +18,7 @@ import cucumber.api.junit.Cucumber;
 		 //tags = {"@Smoke","@sanity"},////and
 		 //tags = {"@Smoke","~@Sanity"},////And
 		 //tags = {"~@Smoke","~@Sanity"},////And
-		 ,monochrome = true
+		 ,monochrome = false
 		
 		)
 public class TestRunner {
