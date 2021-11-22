@@ -4,7 +4,7 @@ Background:
 Given user navigate to url "http://localhost:100" on chrome
 Then Login page should be appear
 
-@smoke
+
 Scenario: Create lead with mandatory fields
 When user enters valid userid and password
 And click on Login button
